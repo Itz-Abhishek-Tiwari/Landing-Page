@@ -2,11 +2,13 @@ body {
   font-family: "Roboto", sans-serif;
   height: 100vh;
   margin: 0;
+  background-color: #f9faf8;
   padding: 0px;
 }
 .container {
   background-color: #1f2937;
-  padding: 0; /* Add padding if needed to create space between container and content */
+  padding: 0;
+  padding-bottom: 100px;
 }
 a {
   text-decoration: none;
@@ -65,10 +67,11 @@ li {
 
 .hero-section div button {
   background-color: #3882f6;
-  padding: 6px 30px;
+  padding: 10px 30px;
   color: white;
   font-weight: 700;
   border: none;
+
   border-radius: 5px;
 }
 
@@ -81,12 +84,11 @@ li {
 
 .main {
   background-color: #f9faf8;
-  height: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  margin-top: 150px;
+  /* margin-top: 150px; */
   gap: 50px;
   padding-top: 50px;
   padding-bottom: 80px;
@@ -116,4 +118,70 @@ li {
   border: 3px solid #3882f6;
   border-radius: 10px;
   flex-shrink: 0;
+}
+.quote-section {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+.quote-section div p {
+  max-width: 800px;
+  font-size: 36px;
+  font-weight: 200;
+  font-style: italic;
+  margin-top: 0;
+  padding: 0;
+  text-align: justify;
+}
+
+.author {
+  text-align: end;
+}
+.sign-up-section {
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+}
+.main-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 0px 90px 20px 90px;
+  border-radius: 10px;
+}
+
+.main-two div h4 {
+  padding: 0;
+  margin-bottom: 0;
+  font-size: 25px;
+}
+
+.main-two div p {
+  padding: 0;
+  margin-top: 0;
+}
+
+.main-two div button {
+  background-color: #3882f6;
+  padding: 6px 30px;
+  color: white;
+  font-weight: 700;
+  border: 3px solid white;
+  border-radius: 5px;
+}
+.footer {
+  background-color: #1f2937;
+  padding: 20px;
+}
+
+.wrap p {
+  color: #e5e7eb;
+  text-align: center;
 }
